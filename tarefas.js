@@ -16,6 +16,8 @@ function addItens (){
         selecionar.appendChild(btnfinalizar); //o que foi adicionado vai ter o botao finalizar
         selecionar.appendChild(btnexcluir); // o que foi adicionado vai ter o botao exluir
         document.getElementById("tarefas").appendChild(selecionar);
+
+        adicionar.value = "";
     }
 }
 function finaTarefa(tarefas){
